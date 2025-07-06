@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+/* Body with full-screen container and background image */
+body {
+  @apply bg-[#E6E6FA] min-h-screen flex justify-center items-center relative overflow-hidden;
+}
+
+
+
+/* Optional global style */
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+.input {
+  @apply w-full p-2 border rounded mb-2 outline-none focus:ring-2 focus:ring-blue-400;
+}
+.btn {
+  @apply  px-4 py-2 rounded ;
+}
